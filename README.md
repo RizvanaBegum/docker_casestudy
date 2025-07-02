@@ -22,25 +22,27 @@ This project demonstrates how to Dockerize a simple Apache web server using an U
 
 ---
 
-## 📁 Project Structure
+## 📁 Project Structure  
+docker_casestudy/  
+├── Dockerfile  
+├── app/  
+│   └── index.html  
+└── README.md  
 
-docker_casestudy/
-├── Dockerfile
-├── app/
-│ └── index.html
-└── README.md
+---
 
+## 💡 Key Learnings  
+- Creating Dockerfiles for custom Ubuntu-based environments  
+- Installing and running Apache2 inside containers  
+- Copying developer code into images during build  
+- Exposing container ports for browser access  
+- Pushing Docker images to Docker Hub  
 
-💡 Key Learnings
-Creating Dockerfiles for custom Ubuntu-based environments
-Installing and running Apache2 inside containers
-Copying developer code into images during build
-Exposing container ports for browser access
-Pushing Docker images to Docker Hub
+---
 
+## 🙋‍♀️ Author  
+**Rizvana Begum**  
+🌐 GitHub: [https://github.com/RizvanaBegum](https://github.com/RizvanaBegum)  
+🔗 LinkedIn: [https://www.linkedin.com/in/rizvanabegum](https://www.linkedin.com/in/rizvanabegum)
 
-🙋‍♀️ Author
-Rizvana Begum
-🌐 GitHub: https://github.com/RizvanaBegum/
-🔗 https://www.linkedin.com/in/rizvanabegum
 
